@@ -20,14 +20,20 @@ MACHINE_GUI_CLASS = "bigscreen"
 MACHINE_KERNEL_PR = "r3"
 
 # Default providers, may need to override for specific machines
+PREFERRED_PROVIDER_virtual/kernel = "linux-ti-technokom"
 PREFERRED_PROVIDER_virtual/bootloader = "u-boot-tk-staging"
-PREFERRED_PROVIDER_virtual/kernel = "linux-tk-staging"
 PREFERRED_PROVIDER_u-boot = "u-boot-tk-staging"
 
 KERNEL_IMAGETYPE = "zImage"
 
+PREFERRED_PROVIDER_virtual/kernel_skit-am437x = "linux-ti-technokom"
+PREFERRED_PROVIDER_virtual/bootloader = "u-boot-tk-staging"
+PREFERRED_PROVIDER_u-boot = "u-boot-tk-staging"
+UBOOT_MACHINE = "tk-som-am43xx_config"
+
+
 UBOOT_ARCH = "arm"
-UBOOT_MACHINE = "am43xx_tk_config"
+UBOOT_MACHINE = "tk-som-am43xx_config"
 
 UBOOT_ENTRYPOINT = "0x80008000"
 UBOOT_LOADADDRESS = "0x80008000"
