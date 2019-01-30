@@ -23,14 +23,12 @@ ARAGO_ALSA_EXTRA = "\
     "
 
 ARAGO_ALSA_BASE = "\
-    alsa-lib \
+    libasound \
     alsa-utils-aplay \
     "
 
 ARAGO_BASE = "\
     module-init-tools \
-    mtd-utils \
-    mtd-utils-ubifs \
     curl \
     initscript-telnetd \
     kernel-modules \
