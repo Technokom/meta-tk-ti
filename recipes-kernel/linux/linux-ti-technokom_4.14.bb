@@ -63,7 +63,7 @@ KERNEL_DEVICETREE_skit-am437x = " \
 "
 
 
-SRCREV = "ad5ce6f1d5081d8a350828c5f15ce4ad4c1de31f"
+SRCREV = "d8887f2c0d6dfb4369957860e1ac9b21e1a5fdb1"
 PV = "4.14.79+git${SRCPV}"
 
 # Append to the MACHINE_KERNEL_PR so that a new SRCREV will cause a rebuild

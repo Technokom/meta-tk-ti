@@ -13,6 +13,7 @@ ARAGO_DEBUG = "\
     canutils \
     gdbserver \
     openssh \
+    e2fsprogs \
     nano \
     "
 

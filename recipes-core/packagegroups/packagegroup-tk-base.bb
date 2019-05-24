@@ -40,8 +40,6 @@ ARAGO_BASE = "\
 
 # these require meta-openembedded/meta-oe layer
 ARAGO_EXTRA = "\
-    devmem2 \
-    tcpdump \
     "
 
 # minimal set of packages - needed to boot
