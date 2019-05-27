@@ -58,11 +58,6 @@ S = "${WORKDIR}/git"
 
 BRANCH = "master"
 
-KERNEL_DEVICETREE_skit-am437x = " \
-    tk-som-am43xx.dtb \
-"
-
-
 SRCREV = "d8887f2c0d6dfb4369957860e1ac9b21e1a5fdb1"
 PV = "4.14.79+git${SRCPV}"
 

@@ -26,7 +26,7 @@ PREFERRED_PROVIDER_u-boot = "u-boot-tk-staging"
 
 KERNEL_IMAGETYPE = "zImage"
 
-KERNEL_DEVICETREE = "tk-som-am437x.dtb"
+KERNEL_DEVICETREE = "tk-am437x-sk.dtb"
 
 
 UBOOT_MACHINE = "tk-som-am43xx_config"
