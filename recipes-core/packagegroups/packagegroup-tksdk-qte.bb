@@ -44,6 +44,7 @@ QT5_ESSENTIALS = "\
     liberation-fonts \
     qtconnectivity \
     qtserialport \
+    qtserialbus \
     qtconnectivity-qmlplugins \
 "
 

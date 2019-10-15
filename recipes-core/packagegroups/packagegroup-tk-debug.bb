@@ -10,7 +10,6 @@ inherit packagegroup
 ARAGO_DEBUG = "\
     util-linux \
     openssh-sftp-server \
-    canutils \
     gdbserver \
     openssh \
     valgrind \
