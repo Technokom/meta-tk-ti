@@ -8,6 +8,8 @@ inherit packagegroup
 
 
 ARAGO_DEBUG = "\
+    htop \
+    socat \
     util-linux \
     openssh-sftp-server \
     gdbserver \

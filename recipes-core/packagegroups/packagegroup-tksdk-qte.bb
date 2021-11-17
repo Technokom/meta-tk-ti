@@ -44,6 +44,8 @@ QT5_ESSENTIALS = "\
     liberation-fonts \
     qtconnectivity \
     qtserialport \
+    qtsensors \
+    qtvirtualkeyboard \
     qtserialbus \
     qtconnectivity-qmlplugins \
 "
